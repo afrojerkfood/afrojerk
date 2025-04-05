@@ -7,10 +7,9 @@
   command = "npm run dev"
   targetPort = 5173
 
-[functions]
-  [[functions.environment]]
-    RESEND_API_KEY = "$RESEND_API_KEY"
-    VITE_GOOGLE_MAPS_API_KEY = "$VITE_GOOGLE_MAPS_API_KEY"
+[functions.environment]
+  RESEND_API_KEY = "$RESEND_API_KEY"
+  VITE_GOOGLE_MAPS_API_KEY = "$VITE_GOOGLE_MAPS_API_KEY"
 
 [[redirects]]
   from = "/*"
